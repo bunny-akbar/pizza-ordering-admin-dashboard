@@ -7,11 +7,12 @@
           class="shrink mr-2"
           contain
           @click="$router.push('/')"
-          src="https://www.appinessworld.com/images/appiness-logo.png"
+          src="@/assets/appiness-logo.png"
           transition="scale-transition"
           width="120"
+          height="64"
         />
-        <p class="my-5 subtitle-1">gettin’ cheesy</p>
+        <p class="mb-2 subtitle-1">gettin’ cheesy</p>
       </div>
 
       <v-spacer></v-spacer>
