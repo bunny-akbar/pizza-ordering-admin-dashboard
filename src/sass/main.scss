@@ -1,0 +1,70 @@
+@import "~vuetify/src/styles/styles.sass";
+
+// importing open sans font (theme font of appiness)
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+// For updating SASS lists
+$material-light: map-merge(
+  $material-light,
+  (
+    background: #eee,
+  )
+);
+
+// overriding default vuetify styles
+$border-radius-root: 6px;
+$btn-border-radius: 4px;
+$btn-text-transform: capitalize;
+$snackbar-border-radius: 4px;
+$display-1: 36px;
+$body-font-family: "Open Sans", sans-serif !important;
+$body-font-color: "red" !important;
+$btn-font-weight: 700 !important;
+
+$heading-font-family: "Open Sans", sans-serif !important;
+
+$headings: (
+  "h1": (
+    "size": 40px,
+    "weight": 700,
+    "line-height": 60px,
+    "font-family": $body-font-family,
+  ),
+  "h2": (
+    "size": 24px,
+    "weight": 700,
+    "line-height": 36px,
+    "font-family": $body-font-family,
+  ),
+  "h6": (
+    "size": 24px,
+    "weight": 300,
+    "line-height": 36px,
+    "letter-spacing": normal,
+    "font-family": $body-font-family,
+  ),
+  "subtitle-1": (
+    "size": 15px,
+    "weight": 700,
+    "line-height": 24px,
+    "font-family": $body-font-family,
+  ),
+  "subtitle-2": (
+    "size": 15px,
+    "weight": 400,
+    "line-height": 28px,
+    "font-family": $body-font-family,
+  ),
+  "caption": (
+    "size": 12px,
+    "weight": 700,
+    "line-height": 20px,
+    "font-family": $body-font-family,
+  ),
+  "overline": (
+    "size": 12px,
+    "weight": 400,
+    "line-height": 20px,
+    "font-family": $body-font-family,
+  ),
+);

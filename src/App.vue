@@ -1,32 +1,45 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <v-app-bar app color="white" flat>
+      <div class="d-flex align-center">
+        <v-img
+          alt="Appiness Logo"
+          class="shrink mr-2"
+          contain
+          @click="$router.push('/')"
+          src="https://www.appinessworld.com/images/appiness-logo.png"
+          transition="scale-transition"
+          width="120"
+        />
+        <p class="my-5 subtitle-1">gettin’ cheesy</p>
+      </div>
+
+      <v-spacer></v-spacer>
+    </v-app-bar>
+
+    <v-main>
+      <loader />
+      <router-view></router-view>
+    </v-main>
+  </v-app>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+export default {
+  name: "App",
 
-#nav {
-  padding: 30px;
+  components: {
+    Loader: () => import("@/components/partials/Loader"),
+  },
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+  data: () => ({
+    //
+  }),
+};
+</script>
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+<style>
+.app-shadow {
+  box-shadow: 0px 4px 12px rgba(31, 56, 71, 0.1) !important;
 }
 </style>
