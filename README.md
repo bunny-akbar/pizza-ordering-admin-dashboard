@@ -38,13 +38,16 @@ The project has no other dependencies.
 
 ##### The initial load of the project will be a welcome screen as shown in the screenshot below:
 
-![Screenshot 2020-09-09 at 11.25.05 PM](/Users/signbeesdev/Library/Application Support/typora-user-images/Screenshot 2020-09-09 at 11.25.05 PM.png)
+![Welcome Screen](images/welcome.png)
 
 
 
 ##### On clicking the Go To Dashboard button, the admin will be redirected to the orders page where the orders will be loaded and displayed according to their statuses as shown below:
 
-![](/Users/signbeesdev/Desktop/Screenshot 2020-09-09 at 11.23.52 PM.png)
+![Orders1](images/orders1.png)
+
+![Orders2](images/orders2.png)
+
 
 The widgets show updated count as and when the order statuses are updated.
 
