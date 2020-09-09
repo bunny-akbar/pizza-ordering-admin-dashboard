@@ -1,5 +1,7 @@
 <template>
   <v-card flat color="transparent">
+    <!-- This component has code for the views of the widgets that are especially useful to know the insights 
+    actions, if any, for this component will be managed in this component-->
     <v-card-title class="px-0">Insights</v-card-title>
     <v-row>
       <v-col cols="12" class="pt-0" md="3">
@@ -49,6 +51,7 @@ export default {
     Widget: () => import("@/components/partials/Widget.vue"),
   },
   computed: {
+    // these counters are in computed properties because, as and when the data updates, we want the DOM to update
     completedOrders() {
       let ctr = 0;
       const orders = this.$store.state.orders;
@@ -85,6 +88,7 @@ export default {
         style: "currency",
         currency: "INR",
       });
+
       return currencyFormatter.format(amt);
     },
   },

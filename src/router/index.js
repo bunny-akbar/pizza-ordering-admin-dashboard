@@ -12,6 +12,7 @@ const routes = [
   },
   {
     path: "/orders",
+    // router view for child components. This is done because, the orders page can contain nested routes for ex., orders/:orderId to view more details about any order
     component: () => import("@/views/Orders.vue"),
     children: [
       {

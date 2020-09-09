@@ -1,4 +1,5 @@
 <template>
+  <!-- global loading component. demonstrates use of the global component and triggering it from any component-->
   <v-overlay v-model="$store.state.showLoader" color="secondary">
     <v-container fill-height>
       <v-row justify="center">

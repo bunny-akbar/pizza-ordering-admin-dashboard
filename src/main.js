@@ -6,7 +6,9 @@ import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
 
-function init() {}
+function init() {
+  // to add any init code, to execute before the app is rendered
+}
 
 new Vue({
   router,

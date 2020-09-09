@@ -1,4 +1,5 @@
 <template>
+  <!-- This component has orders listed and it shall take care of all the actions that can happen in this component -->
   <v-card min-height="100px" flat color="transparent" class="app-shadow">
     <v-card-title class="px-0">Orders</v-card-title>
     <v-list style="border-radius:8px">
@@ -62,7 +63,7 @@ export default {
     },
     updateStatus(id, status) {
       // cloning the actual object to make sure nothing in the store is directly changed
-      const allOrders = JSON.parse(JSON.stringify(this.$store.state.orders));
+      const allOrders = JSON.parse(JSON.stringify(this.orders));
 
       if (status === "received") allOrders[id].status = "preparing";
       if (status === "preparing") allOrders[id].status = "ready";

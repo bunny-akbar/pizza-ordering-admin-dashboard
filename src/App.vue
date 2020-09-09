@@ -19,7 +19,9 @@
     </v-app-bar>
 
     <v-main>
+      <!-- global loading component -->
       <loader />
+      <!-- app router view -->
       <router-view></router-view>
     </v-main>
   </v-app>

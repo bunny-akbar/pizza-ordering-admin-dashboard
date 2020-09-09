@@ -44,13 +44,7 @@ The project has no other dependencies.
 
 ##### On clicking the Go To Dashboard button, the admin will be redirected to the orders page where the orders will be loaded and displayed according to their statuses as shown below:
 
-![Screenshot 2020-09-09 at 11.23.52 PM](/Users/signbeesdev/Desktop/Screenshot 2020-09-09 at 11.23.52 PM.png)
-
-
-
-![Screenshot 2020-09-09 at 11.24.15 PM](/Users/signbeesdev/Desktop/Screenshot 2020-09-09 at 11.24.15 PM.png)
-
-
+![](/Users/signbeesdev/Desktop/Screenshot 2020-09-09 at 11.23.52 PM.png)
 
 The widgets show updated count as and when the order statuses are updated.
 

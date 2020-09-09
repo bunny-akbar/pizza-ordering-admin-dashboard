@@ -1,4 +1,9 @@
 <template>
+  <!-- This component shows well how a reusable component should be desinged 
+  We use this component 4 times in the /orders page. Writing 4 differnet cards is just WET code and a bad practice
+  instead we can design a component so that change made to one wdiget need not be re-written to the others-->
+
+  <!-- Component also demistrates the parent child communication using props-->
   <v-card :color="widgetThemeColor" style="border-radius: 8px" flat class="app-shadow pl-2">
     <v-list height="100px" style="border-radius:0px 8px 8px 0px" class="py-3" flat>
       <v-list-item>
