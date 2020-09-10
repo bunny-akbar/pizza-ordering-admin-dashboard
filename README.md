@@ -1,7 +1,5 @@
 # Pizza Admin Dashboard
 
-
-
 ## Project setup
 
 ```
@@ -20,8 +18,6 @@ npm run serve
 npm run build
 ```
 
-
-
 ### Additional Dependencies
 
 ##### Vuetify - UI library for material UI components for Vue.js
@@ -30,17 +26,11 @@ npm run build
 
 The project has no other dependencies.
 
-
-
 ##### The project incorporates the use of Vuex and Vue Router from the Vue.js ecosystem, though in a very simple manner, it shows how the vue ecosystem can be used to sustain medium to huge level projects with Vue.js.
-
-
 
 ##### The initial load of the project will be a welcome screen as shown in the screenshot below:
 
 ![Welcome](images/welcome.png)
-
-
 
 ##### On clicking the Go To Dashboard button, the admin will be redirected to the orders page where the orders will be loaded and displayed according to their statuses as shown below:
 
@@ -48,3 +38,4 @@ The project has no other dependencies.
 
 The widgets show updated count as and when the order statuses are updated.
 
+A demo is temporarily hosted on the link: https://pizza-ordering-admin-dashboard.web.app

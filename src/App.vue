@@ -9,10 +9,9 @@
           @click="$router.push('/')"
           src="@/assets/appiness-logo.png"
           transition="scale-transition"
-          width="120"
-          height="64"
+          width="92"
         />
-        <p class="mb-2 subtitle-1">gettin’ cheesy</p>
+        <p class="mb-1 caption">gettin’ cheesy</p>
       </div>
 
       <v-spacer></v-spacer>
